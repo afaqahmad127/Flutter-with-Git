@@ -1,0 +1,53 @@
+name: spiciya
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+    #Flutter
+  cloud_firestore: ^2.4.0
+  cupertino_icons: ^1.0.3
+  firebase_auth: ^3.0.1
+  firebase_core: ^1.4.0
+  #Stacked
+  stacked: ^2.2.3
+  stacked_firebase_auth: ^0.2.8
+  stacked_services: ^0.8.13
+  build_runner: ^2.1.0
+
+  google_fonts: ^2.1.0
+  flutter_svg: ^0.22.0
+  flutter_swipe_action_cell: ^2.1.1
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  stacked_generator: ^0.4.8
+flutter:
+
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+  #   - images/a_dot_ham.jpeg
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # example:
+  fonts:
+    - family: Quick Sand
+      fonts:
+        - asset: assets/fonts/Quicksand-VariableFont_wght.ttf
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
